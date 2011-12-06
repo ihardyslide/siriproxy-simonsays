@@ -1,0 +1,12 @@
+This is a SiriProxy plugin called "SimonSays". 
+
+It works just like the normal Simon says game, but Siri works as "Simon".
+
+The Plugin is not finished atm, but it works. 
+
+Just put in your config.yml:
+
+- name: 
+  git:
+
+Thats all! To activate say: "Simon says"
