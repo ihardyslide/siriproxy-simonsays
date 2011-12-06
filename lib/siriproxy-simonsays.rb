@@ -10,8 +10,8 @@ class SiriProxy::Plugin::SimonSays < SiriProxy::Plugin
  
     def simon_says
 
-	    i = 0
-	    until i == 20
+	    #i = 0
+	    #until i == 20
             rand = rand(1...20)
             random = rand(1..4)
 
@@ -254,8 +254,8 @@ class SiriProxy::Plugin::SimonSays < SiriProxy::Plugin
 	             say "Siri says, go to sleep!"
 	        end
             end
-	    i += 1
-	    end
+	    #i += 1
+	    #end
     request_completed 
   end
 
