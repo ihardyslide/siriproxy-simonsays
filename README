@@ -6,7 +6,7 @@ The Plugin is not finished atm, but it works.
 
 Just put in your config.yml:
 
-- name: 
-  git:
+    - name: 'SimonSays'
+      git: 'git://github.com/ihardyslide/siriproxy-simonsays.git'
 
 Thats all! To activate say: "Simon says"
